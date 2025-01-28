@@ -1,0 +1,25 @@
+{
+  "name": "bayesian-planner",
+  "version": "1.0.0",
+  "description": "Simple script to illustrate Bayesian probabilities",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkroman/bayesian-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexkroman/bayesian-planner/issues"
+  },
+  "homepage": "https://github.com/alexkroman/bayesian-planner#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
